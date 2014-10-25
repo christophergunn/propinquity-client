@@ -1,1 +1,9 @@
-/* Empty. Add your own CSS if you like */
+#chat #chatter {
+  padding-bottom: 20px; }
+  #chat #chatter blockquote {
+    padding: 10px;
+    margin: 0 0 1px 0;
+    background: #efffff;
+    border: none; }
+    #chat #chatter blockquote header {
+      font-weight: bold; }
