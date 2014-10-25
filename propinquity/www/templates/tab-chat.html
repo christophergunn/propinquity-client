@@ -1,11 +1,13 @@
 <ion-view title="Chat">
 	<ion-content class="padding">
+	<div id="out"></div>
 		<div id="chatter">
 			<blockquote ng-repeat="message in messages" type="item-text-wrap">
 				<header>{{message.name}}</header>
 				<p>{{message.message}}</p>
 			</blockquote>
 		</div>
+		<div id="subscribers"></div>
 	</ion-content>
 	<div class="bar bar-footer" style="position: fixed; bottom: 3.6em;">
 		<div class="item item-input" style="width: 100%">
