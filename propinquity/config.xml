@@ -16,8 +16,9 @@
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
+  <icon src="www/img/icon.png" />
   <feature name="SplashScreen">
-    <param name="android-package" value="org.apache.cordova.SplashScreen" />
-    <param name="ios-package" value="CDVSplashScreen" />
-</feature>
+      <param name="android-package" value="org.apache.cordova.SplashScreen" />
+      <param name="ios-package" value="CDVSplashScreen" />
+  </feature>
 </widget>
