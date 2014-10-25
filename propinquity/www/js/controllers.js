@@ -36,10 +36,12 @@ angular.module('starter.controllers', [])
 	    },
 
 	    signal: function(event) {
-	    	console.log(event.data)
 	    	var parts = event.data.split('|')
 	    	$scope.messages.push({ name:parts[0] + ' (' + moment(parts[2]).format('h:mm:ssa')+ ')', message:parts[1]})
 
+		    $scope.newMessage = {
+		        text: ""
+		    }
 			$ionicScrollDelegate.scrollBottom();
 	    }
 	});
