@@ -3,6 +3,9 @@ angular.module('starter.controllers', [])
 .controller('ChatCtrl', function($scope) {
 })
 
+.controller('VideoCtrl', function($scope) {
+})
+
 .controller('FriendsCtrl', function($scope, Friends) {
   $scope.friends = Friends.all();
 })
